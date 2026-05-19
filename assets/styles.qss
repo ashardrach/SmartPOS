@@ -1,0 +1,439 @@
+/* SmartPOS Ghana — Premium Dark Theme */
+/* Created by ashardrach */
+
+/* ── Main Window ── */
+QMainWindow {
+    background-color: #0f0f1a;
+}
+
+QWidget {
+    background-color: #0f0f1a;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 13px;
+}
+
+/* ── Sidebar ── */
+#sidebar {
+    background-color: #1a1a2e;
+    border-right: 1px solid #2a2a4a;
+    min-width: 220px;
+    max-width: 220px;
+}
+
+#logo_label {
+    color: #4a9eff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+#business_label {
+    color: #a0a0c0;
+    font-size: 11px;
+    padding: 0 20px 15px 20px;
+}
+
+/* ── Sidebar Buttons ── */
+#nav_button {
+    background-color: transparent;
+    color: #a0a0c0;
+    border: none;
+    text-align: left;
+    padding: 12px 20px;
+    font-size: 13px;
+    border-radius: 0;
+}
+
+#nav_button:hover {
+    background-color: #2a2a4a;
+    color: #ffffff;
+}
+
+#nav_button_active {
+    background-color: #1e3a5f;
+    color: #4a9eff;
+    border: none;
+    border-left: 3px solid #4a9eff;
+    text-align: left;
+    padding: 12px 20px 12px 17px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 0;
+}
+
+/* ── Content Area ── */
+#content_area {
+    background-color: #0f0f1a;
+    padding: 20px;
+}
+
+/* ── Page Title ── */
+#page_title {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#page_subtitle {
+    color: #6a6a8a;
+    font-size: 12px;
+}
+
+/* ── Dashboard Cards ── */
+#stat_card {
+    background-color: #1a1a2e;
+    border: 1px solid #2a2a4a;
+    border-radius: 12px;
+    padding: 20px;
+    min-width: 180px;
+}
+
+#stat_card_blue {
+    background-color: #1a1a2e;
+    border: 1px solid #4a9eff;
+    border-radius: 12px;
+    padding: 20px;
+    min-width: 180px;
+}
+
+#stat_value {
+    color: #4a9eff;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#stat_label {
+    color: #6a6a8a;
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+/* ── Buttons ── */
+QPushButton {
+    background-color: #4a9eff;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: bold;
+    min-height: 36px;
+}
+
+QPushButton:hover {
+    background-color: #6ab0ff;
+}
+
+QPushButton:pressed {
+    background-color: #2a7edf;
+}
+
+QPushButton:disabled {
+    background-color: #2a2a4a;
+    color: #5a5a7a;
+}
+
+#btn_success {
+    background-color: #00c853;
+    color: #ffffff;
+}
+
+#btn_success:hover {
+    background-color: #00e676;
+}
+
+#btn_danger {
+    background-color: #ff1744;
+    color: #ffffff;
+}
+
+#btn_danger:hover {
+    background-color: #ff5252;
+}
+
+#btn_warning {
+    background-color: #ff9100;
+    color: #ffffff;
+}
+
+#btn_warning:hover {
+    background-color: #ffab40;
+}
+
+#btn_secondary {
+    background-color: #2a2a4a;
+    color: #a0a0c0;
+}
+
+#btn_secondary:hover {
+    background-color: #3a3a5a;
+    color: #ffffff;
+}
+
+#btn_large {
+    font-size: 15px;
+    padding: 14px 28px;
+    min-height: 48px;
+}
+
+/* ── Input Fields ── */
+QLineEdit {
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+    border: 1px solid #2a2a4a;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 13px;
+    min-height: 36px;
+}
+
+QLineEdit:focus {
+    border: 1px solid #4a9eff;
+    background-color: #1e2040;
+}
+
+QLineEdit::placeholder {
+    color: #4a4a6a;
+}
+
+QComboBox {
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+    border: 1px solid #2a2a4a;
+    border-radius: 8px;
+    padding: 8px 12px;
+    min-height: 36px;
+}
+
+QComboBox:focus {
+    border: 1px solid #4a9eff;
+}
+
+QComboBox::drop-down {
+    border: none;
+    width: 30px;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+    border: 1px solid #2a2a4a;
+    selection-background-color: #2a3a5a;
+}
+
+QSpinBox, QDoubleSpinBox {
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+    border: 1px solid #2a2a4a;
+    border-radius: 8px;
+    padding: 8px 12px;
+    min-height: 36px;
+}
+
+QSpinBox:focus, QDoubleSpinBox:focus {
+    border: 1px solid #4a9eff;
+}
+
+/* ── Tables ── */
+QTableWidget {
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+    border: 1px solid #2a2a4a;
+    border-radius: 8px;
+    gridline-color: #2a2a4a;
+    selection-background-color: #1e3a5f;
+    alternate-background-color: #1e1e38;
+}
+
+QTableWidget::item {
+    padding: 8px 12px;
+    border: none;
+}
+
+QTableWidget::item:selected {
+    background-color: #1e3a5f;
+    color: #4a9eff;
+}
+
+QHeaderView::section {
+    background-color: #0f0f1a;
+    color: #6a6a8a;
+    padding: 10px 12px;
+    border: none;
+    border-bottom: 1px solid #2a2a4a;
+    font-weight: bold;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+/* ── Scrollbars ── */
+QScrollBar:vertical {
+    background: #1a1a2e;
+    width: 8px;
+    border-radius: 4px;
+}
+
+QScrollBar::handle:vertical {
+    background: #3a3a5a;
+    border-radius: 4px;
+    min-height: 30px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #4a9eff;
+}
+
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical {
+    height: 0;
+}
+
+QScrollBar:horizontal {
+    background: #1a1a2e;
+    height: 8px;
+    border-radius: 4px;
+}
+
+QScrollBar::handle:horizontal {
+    background: #3a3a5a;
+    border-radius: 4px;
+}
+
+/* ── Labels ── */
+QLabel {
+    color: #e0e0e0;
+}
+
+#label_primary {
+    color: #4a9eff;
+    font-weight: bold;
+}
+
+#label_success {
+    color: #00c853;
+    font-weight: bold;
+}
+
+#label_danger {
+    color: #ff1744;
+    font-weight: bold;
+}
+
+#label_muted {
+    color: #6a6a8a;
+}
+
+/* ── POS Cart ── */
+#cart_widget {
+    background-color: #1a1a2e;
+    border: 1px solid #2a2a4a;
+    border-radius: 12px;
+}
+
+#cart_total_label {
+    color: #00c853;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#product_card {
+    background-color: #1a1a2e;
+    border: 1px solid #2a2a4a;
+    border-radius: 10px;
+    padding: 12px;
+    min-height: 80px;
+}
+
+#product_card:hover {
+    border: 1px solid #4a9eff;
+    background-color: #1e2040;
+}
+
+/* ── Tabs ── */
+QTabWidget::pane {
+    border: 1px solid #2a2a4a;
+    border-radius: 8px;
+    background-color: #1a1a2e;
+}
+
+QTabBar::tab {
+    background-color: #1a1a2e;
+    color: #6a6a8a;
+    padding: 10px 20px;
+    border: none;
+    border-bottom: 2px solid transparent;
+}
+
+QTabBar::tab:selected {
+    color: #4a9eff;
+    border-bottom: 2px solid #4a9eff;
+}
+
+QTabBar::tab:hover {
+    color: #e0e0e0;
+}
+
+/* ── Message Boxes ── */
+QMessageBox {
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+}
+
+QMessageBox QPushButton {
+    min-width: 80px;
+}
+
+/* ── Status Bar ── */
+QStatusBar {
+    background-color: #1a1a2e;
+    color: #6a6a8a;
+    border-top: 1px solid #2a2a4a;
+}
+
+/* ── Dialog ── */
+QDialog {
+    background-color: #1a1a2e;
+}
+
+/* ── Search Box ── */
+#search_box {
+    background-color: #1a1a2e;
+    border: 1px solid #2a2a4a;
+    border-radius: 20px;
+    padding: 8px 16px 8px 36px;
+    font-size: 13px;
+}
+
+#search_box:focus {
+    border: 1px solid #4a9eff;
+}
+
+/* ── Divider ── */
+#divider {
+    background-color: #2a2a4a;
+    max-height: 1px;
+    min-height: 1px;
+}
+
+/* ── Login Screen ── */
+#login_widget {
+    background-color: #1a1a2e;
+    border: 1px solid #2a2a4a;
+    border-radius: 16px;
+    padding: 40px;
+    min-width: 400px;
+    max-width: 400px;
+}
+
+#login_title {
+    color: #4a9eff;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#login_subtitle {
+    color: #6a6a8a;
+    font-size: 13px;
+}

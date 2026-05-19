@@ -1,0 +1,8 @@
+smartpos.db
+logs/
+backups/
+__pycache__/
+*.pyc
+*.exe
+build/
+dist/
