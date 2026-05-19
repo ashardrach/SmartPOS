@@ -1,4 +1,6 @@
 smartpos.db
+smartpos.db-shm
+smartpos.db-wal
 logs/
 backups/
 __pycache__/
